@@ -9,3 +9,12 @@ export type Logo = {
   name: string;
   image: StaticImport;
 };
+
+export type Avatar = {
+  src: StaticImport;
+  alt: string;
+  z: string;
+  ml: string;
+  border?: string;
+  placeholder?: boolean;
+};

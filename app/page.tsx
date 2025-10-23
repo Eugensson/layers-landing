@@ -1,5 +1,6 @@
 import { Hero } from "@/components/hero";
 import { Navbar } from "@/components/navbar";
+import { Features } from "@/components/features";
 import { LogoTicker } from "@/components/logo-ticker";
 import { Introduction } from "@/components/introduction";
 
@@ -10,6 +11,7 @@ const Home = () => {
       <Hero />
       <LogoTicker />
       <Introduction />
+      <Features />
       <div className="h-1000" />
     </>
   );
