@@ -17,7 +17,7 @@ import avatar2 from "@/public/images/avatar-owen-garcia.jpg";
 import avatar3 from "@/public/images/avatar-florence-shaw.jpg";
 import avatar4 from "@/public/images/avatar-ashwin-santiago.jpg";
 
-import { Avatar, Integration, Logo, NavItem } from "@/types";
+import { Avatar, Faq, FooterItem, Integration, Logo, NavItem } from "@/types";
 
 export const navData: NavItem[] = [
   { label: "Home", href: "#" },
@@ -106,4 +106,38 @@ export const integrationData: Integration[] = [
     icon: githubIcon,
     description: "GitHub is the leading platform for code collaboration.",
   },
+];
+
+export const faqData: Faq[] = [
+  {
+    question: "How is Layers different from other design tools?",
+    answer:
+      "Unlike traditional design tools, Layers prioritizes speed and simplicity without compromising on power. Its intelligent interface adapts to your workflow, reducing clicks and keeping you in a creative flow.",
+  },
+  {
+    question: "Is there a learning curve?",
+    answer:
+      "Layers is designed to feel intuitive from day one. Most designers become productive within hours, not weeks. We also provide interactive tutorials and detailed documentation to help you get started quickly.",
+  },
+  {
+    question: "How do you handle version control?",
+    answer:
+      "Every change in Layers is automatically saved and versioned. You can review history, restore previous versions, and create named milestones for important updates.",
+  },
+  {
+    question: "Can I work offline?",
+    answer:
+      "Yes! Layers includes a robust offline mode. Your changes automatically sync once you’re back online, so you can stay productive anywhere.",
+  },
+  {
+    question: "How does Layers handle collaboration?",
+    answer:
+      "Layers is built for real-time collaboration. Invite teammates, share feedback instantly, and design together without conflicts.",
+  },
+];
+
+export const footerData: FooterItem[] = [
+  { href: "/", label: "Contact" },
+  { href: "/", label: "Privacy Policy" },
+  { href: "/", label: "Terms & Conditions" },
 ];

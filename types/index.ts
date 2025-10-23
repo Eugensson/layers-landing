@@ -24,3 +24,13 @@ export type Integration = {
   icon: StaticImport;
   description: string;
 };
+
+export type Faq = {
+  question: string;
+  answer: string;
+};
+
+export type FooterItem = {
+  href: string;
+  label: string;
+};
