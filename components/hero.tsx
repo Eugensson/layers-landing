@@ -62,6 +62,7 @@ export const Hero = () => {
     <section
       className="py-24 overflow-x-clip"
       style={{ cursor: `url(${cursorYouImage.src}), auto` }}
+      id="home"
     >
       <div className="max-w-360 mx-auto relative">
         <motion.div

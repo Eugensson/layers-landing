@@ -20,10 +20,10 @@ import avatar4 from "@/public/images/avatar-ashwin-santiago.jpg";
 import { Avatar, Faq, FooterItem, Integration, Logo, NavItem } from "@/types";
 
 export const navData: NavItem[] = [
-  { label: "Home", href: "#" },
-  { label: "Features", href: "#features" },
-  { label: "Integrations", href: "#integrations" },
-  { label: "FAQs", href: "#faqs" },
+  { name: "Home", path: "home", offset: -150 },
+  { name: "Features", path: "features", offset: -50 },
+  { name: "Integrations", path: "integrations", offset: 0 },
+  { name: "FAQs", path: "faqs", offset: 0 },
 ];
 
 export const logosData: Logo[] = [

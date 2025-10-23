@@ -24,3 +24,7 @@ body {
 .gradient {
   @apply bg-linear-to-r from-purple-400 to-pink-400;
 }
+
+.active {
+  @apply text-lime-400;
+}

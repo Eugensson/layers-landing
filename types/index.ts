@@ -1,8 +1,9 @@
 import { StaticImport } from "next/dist/shared/lib/get-img-props";
 
 export type NavItem = {
-  label: string;
-  href: string;
+  name: string;
+  path: string;
+  offset: number;
 };
 
 export type Logo = {
