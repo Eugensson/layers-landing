@@ -1,6 +1,7 @@
 import { Hero } from "@/components/hero";
 import { Navbar } from "@/components/navbar";
 import { LogoTicker } from "@/components/logo-ticker";
+import { Introduction } from "@/components/introduction";
 
 const Home = () => {
   return (
@@ -8,6 +9,7 @@ const Home = () => {
       <Navbar />
       <Hero />
       <LogoTicker />
+      <Introduction />
       <div className="h-1000" />
     </>
   );
