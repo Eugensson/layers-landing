@@ -15,7 +15,7 @@ export const Features = () => {
         <div className="flex justify-center">
           <Tag>Features</Tag>
         </div>
-        <h2 className="mt-6 max-w-2xl mx-auto text-6xl font-medium text-center">
+        <h2 className="mt-6 max-w-2xl mx-auto text-4xl md:text-6xl font-medium text-center">
           Where power meets&nbsp;
           <span className="text-lime-400">simplicity</span>
         </h2>

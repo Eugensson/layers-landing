@@ -4,6 +4,12 @@ import pulseLogo from "@/public/images/pulse.svg";
 import acmeLogo from "@/public/images/acme-corp.svg";
 import quantumLogo from "@/public/images/quantum.svg";
 import outsideLogo from "@/public/images/outside.svg";
+import slackIcon from "@/public/images/slack-logo.svg";
+import figmaIcon from "@/public/images/figma-logo.svg";
+import framerIcon from "@/public/images/framer-logo.svg";
+import notionIcon from "@/public/images/notion-logo.svg";
+import githubIcon from "@/public/images/github-logo.svg";
+import relumeIcon from "@/public/images/relume-logo.svg";
 import celestialLogo from "@/public/images/celestial.svg";
 import echoValleyLogo from "@/public/images/echo-valley.svg";
 import avatar1 from "@/public/images/avatar-lula-meyers.jpg";
@@ -11,7 +17,7 @@ import avatar2 from "@/public/images/avatar-owen-garcia.jpg";
 import avatar3 from "@/public/images/avatar-florence-shaw.jpg";
 import avatar4 from "@/public/images/avatar-ashwin-santiago.jpg";
 
-import { Avatar, Logo, NavItem } from "@/types";
+import { Avatar, Integration, Logo, NavItem } from "@/types";
 
 export const navData: NavItem[] = [
   { label: "Home", href: "#" },
@@ -67,4 +73,37 @@ export const featureList: string[] = [
   "Auto Layout",
   "Fast Search",
   "Smart Guides",
+];
+
+export const integrationData: Integration[] = [
+  {
+    name: "Figma",
+    icon: figmaIcon,
+    description: "Figma is a collaborative interface design tool.",
+  },
+  {
+    name: "Notion",
+    icon: notionIcon,
+    description: "Notion is an all-in-one workspace for notes and docs.",
+  },
+  {
+    name: "Slack",
+    icon: slackIcon,
+    description: "Slack is a powerful team communication platform.",
+  },
+  {
+    name: "Relume",
+    icon: relumeIcon,
+    description: "Relume is a no-code website builder and design system.",
+  },
+  {
+    name: "Framer",
+    icon: framerIcon,
+    description: "Framer is a professional website prototyping tool.",
+  },
+  {
+    name: "GitHub",
+    icon: githubIcon,
+    description: "GitHub is the leading platform for code collaboration.",
+  },
 ];

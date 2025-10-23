@@ -18,3 +18,9 @@ export type Avatar = {
   border?: string;
   placeholder?: boolean;
 };
+
+export type Integration = {
+  name: string;
+  icon: StaticImport;
+  description: string;
+};
